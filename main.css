@@ -1,0 +1,18 @@
+body {
+  background: url(http://wallpoper.com/images/00/31/14/15/dress-alice_00311415.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+input {
+  width: auto;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+}
+button {
+  width: auto;
+  height: 50px;
+  background-color: pink;
+  font-weight: bold;
+  border-radius: 25px;
+}
