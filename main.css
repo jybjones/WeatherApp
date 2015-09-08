@@ -1,6 +1,12 @@
 body {
+  height: auto;
   background: url(http://wallpoper.com/images/00/31/14/15/dress-alice_00311415.jpg) no-repeat center center fixed;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:100% auto;
+    background-color: #9CD1D9;
+
 }
 
 input {
