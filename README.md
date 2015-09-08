@@ -1,5 +1,5 @@
 # WeatherApp
-A weather app developed with JavaScript, jQuery, HTML/Jade & CSS to demonstrate the ability to retrieve the 5-day forecast from a user's zip code from the Weather Underground API.
+A weather app developed with JavaScript, jQuery, HTML & CSS/Bootstrap to demonstrate the ability to retrieve the 5-day forecast from a user's zip code from the Weather Underground API.
 
 The app also uses Geolocation to locate the user's current location to deliver their local temperature & current weather condition.
 

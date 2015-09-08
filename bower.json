@@ -1,0 +1,21 @@
+{
+  "name": "WeatherApp",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jybjones/WeatherApp",
+  "authors": [
+    "Jennifer Jones <jybjones@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "lodash": "~3.8.0"
+  }
+}

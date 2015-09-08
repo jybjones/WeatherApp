@@ -7,7 +7,7 @@ var clothes = document.querySelector('.clothes');
 lookUp.onclick = function () {
   clothes.innerHTML = "pantaloons";
   var zip = document.querySelector('input').value;
-  
+
   getJSON(API_URL + zip + '.json', function (data) {
   	var currTemp = document.querySelector('.temp');
     var currLoc = document.querySelector('.location');
@@ -23,13 +23,13 @@ locate.onclick = function () {
   navigator.geolocation.getCurrentPosition(function(position) {
     var lat = position.coords.latitude;
     var lon = position.coords.longitude;
-    
+
     getJSON(API_URL + lat + "," + lon + '.json', function (data) {
   	var currLoc = document.querySelector('.location');
     var currTemp = document.querySelector('.temp');
       currLoc.innerHTML = data.current_observation.display_location.full;
       currTemp.innerHTML = data.current_observation.temperature_string;
-      
+
     });
   });
 };
